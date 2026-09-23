@@ -1,0 +1,29 @@
+10 ?- father(lara,salem).
+false.
+
+11 ?- father(salem,sultan).
+false.
+
+12 ?- mother(lara,salem).|   
+true.
+
+13 ?- father(sultan,salem).
+true.
+
+14 ?- mother(sultan,salem).
+false.
+
+15 ?- sister(X,ali).
+X = sara .
+
+16 ?- sister(sara,bader).
+true .
+
+17 ?- brother(ali,bader).
+true .
+
+18 ?- brother(sara,ali).
+false.
+
+19 ?- brother(X,ali).
+X = bader 
